@@ -228,6 +228,10 @@ class spectralestimator2D:
         
         pass
 
+class wavelets:
+    def __init__(self,data):
+        pass
+
 class pdf1D:
     def __init__(self,data):
         self.data = data
@@ -237,7 +241,6 @@ class pdf1D:
 
     def histogram(self,bins=100,normed=False,weights=None):
         pass
-
 
 class pdf_divergence_1D:
     def __init__(self,p,q,px,qx):
